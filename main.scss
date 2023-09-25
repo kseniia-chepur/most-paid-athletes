@@ -22,10 +22,12 @@ body {
 
 .person {
   padding: 10px 10px 16px;
+  transition: transform 0.1s ease;
 
   &:hover {
     border-radius: 10px;
     background: #EEE;
+    transform: scale(1.1);
 
     & .content__photo {
       border-radius: 60px;
